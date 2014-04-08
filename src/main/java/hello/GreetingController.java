@@ -47,7 +47,7 @@ public class GreetingController {
 			// TODO: handle exception
 		}    	
     	
-    	System.out.println("Here is the request: "+ stringBuilder);
+    	System.out.println("Request: "+ stringBuilder);
         return new Greeting(counter.incrementAndGet(),
                             String.format(template, name));
     }
